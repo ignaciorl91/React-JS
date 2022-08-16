@@ -2,12 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+const  persona={
+  nombre: "Ignacio",
+  localidad:"San Fernando"
+}
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hola {persona.nombre} de {persona.localidad}
         </p>
         <a
           className="App-link"
