@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar1{
+  display: flex;
+  background-color: #1c8350;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+}
+.list{
+  align-items: center;
+  display: inline-flex;
+}
+li{
+  margin-left: 80px;
+}

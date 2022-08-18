@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
 
@@ -9,8 +10,9 @@ const  persona={
 }
 
   return (
-    <div className="App">
+    <div className="App"> 
       <header className="App-header">
+    <Navbar/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hola {persona.nombre} de {persona.localidad}
