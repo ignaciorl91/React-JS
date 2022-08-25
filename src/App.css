@@ -14,10 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #4c5567;
+  height: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -39,7 +39,6 @@
 
 .navBar1{
   display: flex;
-  background-color: #1c8350;
   height: 50px;
   width: 100%;
   justify-content: center;
@@ -50,4 +49,14 @@
 }
 li{
   margin-left: 80px;
+}
+.cart{
+  margin-top: 100px;
+  position:static ;
+  height: 200px;
+  width: 200px;
+
+}
+.item{
+  
 }

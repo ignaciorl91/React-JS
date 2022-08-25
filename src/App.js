@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import CartWidget from './components/CartWidget/CartWidget';
+import ItemListContainer from './container/ItemListContainer';
+
+
 
 function App() {
 
@@ -13,19 +17,13 @@ const  persona={
     <div className="App"> 
       <header className="App-header">
     <Navbar/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola {persona.nombre} de {persona.localidad}
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <CartWidget/>
       </header>
+      <body>
+        <div className='items'>
+          <ItemListContainer name="titulo"/>
+        </div>
+      </body>
     </div>
   );
 }
